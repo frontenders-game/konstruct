@@ -1,0 +1,184 @@
+<!doctype html>
+
+<!--  lang for lorem ipsum  -->
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Konstruct website</title>
+  <meta content="" name="description">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!--  CSS -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--  Favicon -->
+  <link href="/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="/favicon/site.webmanifest" rel="manifest">
+</head>
+
+<body>
+<header id="home">
+  <div class="header-logo">
+    <img alt="Konstruct logo" src="/img/header/projeco-logo.svg">
+  </div>
+  <div class="header-text">
+    <h1 class="header-text__title">
+      PARTNER WITH KONSTRUCT
+    </h1>
+    <div class="header-text__subtitle">An award-winning construction management firm</div>
+  </div>
+  <div class="header__scroll-down">
+    <a href="#menu">SCROLL DOWN</a>
+  </div>
+</header>
+
+
+<main>
+  <!-- Navigation menu -->
+  <nav class="menu" id="menu">
+    <img alt="Konstruct logo" class="menu__logo" src="/img/navbar/logo_black.svg">
+    <ul>
+      <li class="menu__link">
+        <a href="#home">HOME</a>
+      </li>
+      <li class="menu__link">
+        <a href="#about">ABOUT</a>
+      </li>
+      <li class="menu__link">
+        <a href="#services">SERVICES</a>
+      </li>
+      <li class="menu__link">
+        <a href="#work">WORK</a>
+      </li>
+      <li class="menu__link">
+        <a href="#newsletter">CONTACT</a>
+      </li>
+    </ul>
+
+  </nav>
+
+  <!-- About us -->
+  <section id="about">
+    <div class="container container-about">
+
+      <h3 class="section-title">OUR STORY</h3>
+      <div class="line line-about"></div>
+
+      <div class="about-wrap">
+        <div class="about-text">
+          <!--- Поправить. текст должен прилипать к топу -->
+          <p class="about-text__main">Founded in 2011 by John Mathew Smith, <span
+            class="about__highlight">Konstruct</span> has become the number one construction management
+          </p>
+          <p class="subtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh
+            euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer
+            adipiscing
+            elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+          </p>
+        </div>
+
+
+        <div class="about-items">
+          <div class="about__item item__plan">
+            <p class="item__text">WE <br> PLAN</p>
+          </div>
+          <div class="about__item item__manage">
+            <p class="item__text">WE <br> MANAGE</p>
+          </div>
+          <div class="about__item item__build">
+            <p class="item__text">WE <br> BUILD</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our services -->
+  <section id="services">
+    <div class="container container-services">
+      <div class="services-title">
+        <div class="services-title__wrap">
+          <h3 class="section-title">OUR CAPABILITIES</h3>
+          <div class="line"></div>
+        </div>
+        <p class="services__subtext subtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+        </p>
+        <a class="btn-primary" href="javascript:alert('UNDER_CONSTRUCTION')">ALL SERVICES</a>
+      </div>
+    </div>
+
+    <div class="container container-services">
+      <div class="services-items">
+        <div class="services__item">
+          <img alt="project and construction management" class="services-item__icon"
+               src="/img/services/management.svg">
+          <h4 class="services-item__title">PROJECT AND CONSTRUCTION MANAGEMENT</h4>
+          <p class="subtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+            tincidunt ut laoreet dolore magna aliquam erat.</p>
+        </div>
+        <div class="services__item">
+          <img alt="structure audit and maintenance" class="services-item__icon"
+               src="/img/services/maintenance.svg">
+          <h4 class="services-item__title">STRUCTURE AUDIT AND MAINTENANCE</h4>
+          <p class="subtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+            tincidunt ut laoreet dolore magna aliquam erat.</p>
+        </div>
+        <div class="services__item">
+          <img alt="factorio construction and modeling" class="services-item__icon"
+               src="/img/services/construction.svg">
+          <h4 class="services-item__title">FACTORY CONSTRUCTION AND MODELING</h4>
+          <p class="subtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+            tincidunt ut laoreet dolore magna aliquam erat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Apply for work -->
+  <section class="contact" id="work">
+    <div class="container-contact">
+      <div class="contact-wrap">
+        <h2 class="contact__text">
+          Want to build something amazing?
+        </h2>
+        <a class="btn-primary" href="javascript:alert('UNDER_CONSTRUCTION')">GET IN TOUCH</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<!-- Newsletter -->
+<footer id="newsletter">
+  <div class="newsletter-container">
+    <div class="signup-container">
+      <div class="signup-form">
+        <h2 class="newsletter__text">Newsletter Signup</h2>
+
+        <div>
+          <form class="newsletter__form" method="post">
+            <label>
+              <input class="newsletter__input" name="email" placeholder="test@youremail.com" required type="email">
+            </label>
+            <button class="btn-primary" type="submit">SIGNUP</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+    <div class="copyright__container">
+      <span class="copyright__text">&copy; 2017 Konstruct Inc. Designed by Jane Kathryn Teo</span>
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
